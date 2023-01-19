@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Contact from "../components/Contact/Contact.svelte";
+	import Footer from "../components/Footer/Footer.svelte";
     import Content from "../components/home/Content.svelte";
     import Header from "../components/home/Header.svelte";
 	import Sidebar from "../components/home/Sidebar.svelte";
@@ -16,4 +17,7 @@
 </main>
 <main class="w-screen pb-8 bg-stone-900">
     <Contact/>
+</main>
+<main>
+    <Footer/>
 </main>
