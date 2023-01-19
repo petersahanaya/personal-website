@@ -1,6 +1,5 @@
 <script lang="ts">
     import emailjs from '@emailjs/browser' 
-    import { PUBLIC_KEY, PUBLIC_SERVICE_ID, PUBLIC_TEMPLATE_ID } from "$env/dynamic/public"
 	import { fly } from 'svelte/transition';
 	import { backOut } from 'svelte/easing';
 
@@ -11,7 +10,7 @@
     const sendEmail = async (e : any) => {
         loading = true
         try {
-            const res = await emailjs.sendForm(PUBLIC_SERVICE_ID, PUBLIC_TEMPLATE_ID, e.target, PUBLIC_KEY)
+            const res = await emailjs.sendForm(process.env.VITE_PUBLIC_SERVICE_ID!, process.env.VITE_PUBLIC_TEMPLATE_ID!, e.target, process.env.VITE_PUBLIC_KEY)
 
             if(res.status === 200) {
                 loading = false
