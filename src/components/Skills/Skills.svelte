@@ -14,7 +14,7 @@
         <section class="mt-3 transition-[200ms] lg:inline-block lg:w-[40vw] hover:scale-90">
             <a href="https://p3tr.netlify.app" rel="noreferrer">
                 <div class="w-[80vw] h-[200px] md:h-[400px] relative m-auto lg:w-[40vw] lg:inline-block">
-                    <img class="w-full h-full object-cover m-auto mt-2 rounded-xl" src="/e-commerce.webp" alt="e-commerce app"/>
+                    <img class="w-full h-full object-cover m-auto mt-2 rounded-xl" src="/E-Commerce.jpg" alt="e-commerce app"/>
                     <span class=" absolute bottom-0 right-0 w-[80vw] h-[200px] md:h-[400px] bg-gradient-to-b from-transparent to-stone-800 lg:w-full lg:h-[500px]">
                         <p class="text-md text-center md:text-2xl w-full pl-6 mt-4 text-stone-200 tracking-wide absolute bottom-0 lg:text-xl">Fullstack E-Commerce App </p>
                     </span>
