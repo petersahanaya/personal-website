@@ -76,7 +76,7 @@
 <main
 	bind:this={parent}
 	id="contact"
-	class="p-3 pt-32 w-screen relative bg-stone-900 md:pt-[20rem] lg:pt-[20rem]"
+	class="p-3 mt-32 w-screen relative bg-stone-900 md:pt-[20rem] lg:pt-[20rem]"
 >
 	{#if inView}
 		<article class="w-full lg:pl-20 pl-8 p-3">
