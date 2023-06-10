@@ -29,9 +29,9 @@
 			id: 1,
 			title: 'E-Commerce App 🛒',
 			description:
-				'Built and launched a fully-featured e-commerce web application using React, Express Js & MySQL.',
+				'Built and launched a fully-featured e-commerce web application using Next Js - Typescript & PostgreSQL.',
 			icon: 'iconoir:user-cart',
-			link: 'https://p3tr.netlify.app',
+			link: 'https://p3das.vercel.app',
 			hovering: false
 		},
 		{
